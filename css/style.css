@@ -1,0 +1,228 @@
+:root {
+    --darkbgcolor: #1F2937;
+    --whitetext: #F9FAF8;
+    --grey: #E5E7EB;
+    --blue: #3882F6;
+}
+
+body {
+    font-family: sans-serif;
+    margin: 0px;
+    padding: 0px;
+}
+
+h1 {
+    color: var(--whitetext);
+    margin-bottom: 0px;
+}
+
+h2 {
+    display: flex;
+    justify-content: center;
+    color: var(--darkbgcolor);
+    margin-bottom: 0px;
+}
+
+ul {
+    list-style-type: none;
+    display: flex;
+    flex: 1;
+    justify-content: flex-end;
+    gap: 18px;
+}
+
+a {
+    text-decoration: none;
+    color: var(--grey);
+    font-size: 18px;
+}
+
+.content {
+    display: flex;
+    flex-direction: column;
+}
+
+/* ## Nav ## */
+
+.nav {
+    display: flex;
+    background-color: var(--darkbgcolor);
+}
+
+.nav-inner {
+    display: flex;
+    justify-content: space-between;
+    margin: auto;
+    width: 55%;
+    padding-top: 20px;
+}
+
+.logo-text {
+    color: var(--whitetext);
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0px;
+}
+
+/* Main section */
+
+.main-section {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--darkbgcolor);
+    height: 400px;
+}
+
+.main-box {
+    display: flex;
+    width: 55%;
+    gap: 50px;
+    margin: auto;
+}
+
+.main-text {
+    color: white;
+}
+
+.main-left {
+    width: 50%;
+}
+
+.main-right {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #828488;
+    height: 200px;
+    width: 50%;
+}
+
+/* ## Info section ## */
+
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    height: 300px;
+}
+
+.info-cards {
+    display: flex;
+    width: 55%;
+}
+
+.info-card-box {
+    border: 3px solid var(--blue);
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+}
+
+.info-card-text {
+    margin-top: 10px;
+}
+
+/* ## Quote section ## */
+
+.quote-section {
+    display: flex;
+    justify-content: center;
+    background-color: var(--grey);
+    height: 400px;
+}
+
+.quote-texts {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 45%;
+}
+
+.quote-text {
+    color: var(--darkbgcolor);
+    font-size: 36px;
+    font-weight: 100;
+    font-style: italic;
+    margin-bottom: 20px;
+}
+
+.quote-signature {
+    align-self: flex-end;
+    color: var(--darkbgcolor);
+    font-size: 22px;
+    font-weight: bold;
+}
+
+/* ## Signup section ## */
+
+.signup-section {
+    display: flex;
+    justify-content: center;
+    background-color: white;
+    padding: 50px 0px 50px 0px;
+}
+
+.signup-inner {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: var(--blue);
+    border-radius: 10px;
+    gap: 50px;
+    width: 45%;
+}
+
+.signup-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.signup-text1 {
+    color: white;
+    font-weight: bold;
+    margin: 30px 0px 3px 0px;
+}
+
+.signup-text2 {
+    color: white;
+    font-weight: 100;
+    margin: 0px;
+    margin: 3px 0px 30px 0px;
+}
+
+/* ## Footer ## */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: var(--darkbgcolor);
+    color: var(--grey);
+    padding: 30px 0px 30px 0px;
+}
+
+button {
+    border-radius: 10px;
+    padding: 5px 25px;
+    margin: 0px;
+}
+
+#signup-button1 {
+    background-color: var(--blue);
+    color: white;
+    border: none;
+}
+
+#signup-button2 {
+    background-color: var(--blue);
+    color: white;
+    border: 1px solid white;
+}
+
+button > a {
+    font-size: 10px;
+    font-weight: bold;
+}
